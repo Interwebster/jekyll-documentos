@@ -1,0 +1,12 @@
+<div class="dropdown show">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    {{ include.titulo }}
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    {% for drop-item in include.itens %}
+    {% capture item-title %}{{ include.itens-title }}{% endcapture %}
+    {% include dropdown-itens.html item=drop-item.option %}
+    {% endfor %}
+  </div>
+</div>

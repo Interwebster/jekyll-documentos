@@ -5,4 +5,5 @@
 layout: default
 ---
 
+{% include sidebar.html %}
 {% include header.html %}
