@@ -5,5 +5,9 @@
 layout: home
 ---
 
+<<<<<<< HEAD
 
 {% include sidebar.html %}
+=======
+{% include header.html %}
+>>>>>>> 5c5639bd95c7775572698410e6548534dff0cc82
