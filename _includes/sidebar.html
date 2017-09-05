@@ -1,6 +1,12 @@
 <aside class="col-md-2">
   {% include h-barra.html titulo="Filtro Avançado" %}
 
-  {% include dropdown.html titulo="Décadas" itens=site.data.dropdown-decadas itens-title="decada" %}
+  {% include dropdown.html titulo="Décadas" itens=site.data.dropdown-decadas %}
+  {% include dropdown.html titulo="Acervo" itens=site.data.dropdown-acervo %}
+  {% include dropdown.html titulo="Suporte" itens=site.data.dropdown-suporte %}
+  {% include dropdown.html titulo="Personagens" itens=site.data.dropdown-personagens %}
 
+  <button type="button" class="btn btn-secondary btn-block mb-2">Outros filtros</button>
+  <button type="button" class="btn btn-primary btn-block mb-2">Buscar</button>
+  <a href="#">Limpar filtros</a>
 </aside>
