@@ -2,31 +2,29 @@
 <html>
 <head>
 
-	<link rel="stylesheet" href="assets/style.css">
-	<link rel="stylesheet" href="assets/bootstrap.css">
-	<link rel="stylesheet" href="assets/bootstrap-grid.css">
-	<link rel="stylesheet" href="assets/bootstrap-reboot.css">
+	<link rel="stylesheet" href="assets/css/bootstrap-reboot.css">
+	<link rel="stylesheet" href="assets/css/bootstrap-grid.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+
+	<link rel="stylesheet" href="assets/css/style.css">
 	
-	<title></title>
+	<title>Documentos</title>
 </head>
-<body>
+	<body>
 
-<div class="wrapper">
-	{{content}}
-	<div class="row">
-		<h1>
-	<strong>Principais assuntos</strong> 	
-		</h1>
-		<p>
-			bla bla 
-		</p>
-	</div>
-	<div class="row">
-		
+	{% include header.html %}
+
+	<div class="wrapper">
+		<div class="container">
+			<div class="col-md-10">
+				{{content}}
+			</div>
+			{% include sidebar.html %}
+		</div>
 	</div>
 
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
 
-</div>
-
-</body>
+	</body>
 </html>

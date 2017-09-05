@@ -4,7 +4,11 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 ---
+<<<<<<< HEAD
 
 {% include header.html %}
 
 {% include sidebar.html %}
+=======
+<h1>kjashkasd</h1>
+>>>>>>> 65e6fc46bf2597ebb02cbd7abd34e07bd7179eee
